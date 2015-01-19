@@ -33,7 +33,8 @@ body{
 
 .main{
   background:#fff;
-  border: 1px solid darken($grey,5);
+  border-bottom: 1px solid darken($grey,5);
+
   border-radius:$br;
   width:100%;
 }
@@ -49,7 +50,7 @@ body{
 
 .header{
   width:100%;
-  margin-bottom:$padding;
+  background-color: #fe8e59;
 }
 
 .footer {

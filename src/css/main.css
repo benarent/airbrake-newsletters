@@ -33,11 +33,11 @@ table td {
     BODY & CONTAINER
 ------------------------------------- */
 body {
-  background-color: #272822;
+  background-color: #36312d;
 }
 
 .body-wrap {
-  background-color: #272822;
+  background-color: #36312d;
   width: 100%;
 }
 
@@ -63,8 +63,8 @@ body {
 ------------------------------------- */
 .main {
   background: #fff;
-  border: 1px solid #1a1a16;
-  border-radius: 3px;
+  border-bottom: 1px solid #282421;
+  border-radius: 0px;
   width: 100%;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .header {
   width: 100%;
-  margin-bottom: 30px;
+  background-color: #fe8e59;
 }
 
 .footer {
@@ -204,11 +204,12 @@ hr {
 }
 
 h3 {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .logo {
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 ul {
