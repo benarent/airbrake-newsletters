@@ -64,7 +64,7 @@ module.exports = function(grunt) {
         cloudfiles: {
           prod: {
             'user': 'grunt.files', // Change this
-            'key': '', // Change this
+            'key': 'xxx', // Change this
             'region': 'IAD', // Might need to change this
             'upload': [{
               'container': 'grunt-emails', // Change this
@@ -78,12 +78,14 @@ module.exports = function(grunt) {
         // CDN will replace local paths with your Cloud CDN path
         cdn: {
           options: {
-            cdn: 'Rackspace Cloud CDN URI', // Change this
+            cdn: 'http://a810ac3d03c99b1de2e9-c5b953ed91674586b2a3d6fb9a6e0d2c.r0.cf5.rackcdn.com', // Change this
             flatten: true,
             supportedTypes: 'html'
           },
           dist: {
-            src: ['./dist/*.html']
+            cwd: './dist/',
+            dest: './dist/',
+            src: ['*.html']
           }
         }
 
