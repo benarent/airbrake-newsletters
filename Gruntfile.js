@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         mailgun: {
           mailer: {
             options: {
-              key: 'key-0y68wq677bf2jrg34uy9dwu4vb6t22d6', // Enter your Mailgun API key here
+              key: 'xxx', // Enter your Mailgun API key here
               sender: 'ben@exceptional.io', // Change this
               recipient: 'benarent@gmail.com', // Change this
               subject: 'This is a test email'
@@ -63,11 +63,11 @@ module.exports = function(grunt) {
         // Use Rackspace Cloud Files if you're using images in your email
         cloudfiles: {
           prod: {
-            'user': 'Rackspace Cloud Username', // Change this
-            'key': 'Rackspace Cloud API Key', // Change this
-            'region': 'ORD', // Might need to change this
+            'user': 'grunt.files', // Change this
+            'key': '', // Change this
+            'region': 'IAD', // Might need to change this
             'upload': [{
-              'container': 'Files Container Name', // Change this
+              'container': 'grunt-emails', // Change this
               'src': 'src/img/*',
               'dest': '/',
               'stripcomponents': 0
