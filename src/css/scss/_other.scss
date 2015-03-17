@@ -54,3 +54,30 @@ h3 {margin-bottom: 5px;
 ul {
   padding-bottom: 10px;
 }
+
+.big-button{
+  background: #ffaa00;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #ffaa00, #ff8645);
+  background-image: -moz-linear-gradient(top, #ffaa00, #ff8645);
+  background-image: -ms-linear-gradient(top, #ffaa00, #ff8645);
+  background-image: -o-linear-gradient(top, #ffaa00, #ff8645);
+  background-image: linear-gradient(to bottom, #ffaa00, #ff8645);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none;
+}
+
+.big-button:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
