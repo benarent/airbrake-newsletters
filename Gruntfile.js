@@ -72,6 +72,13 @@ module.exports = function(grunt) {
               'dest': '/',
               'stripcomponents': 0
             }]
+            , // Might need to change this
+            'upload': [{
+              'container': 'grunt-emails', // Change this
+              'src': 'src/img/gif/*',
+              'dest': '/',
+              'stripcomponents': 0
+            }]
           }
         },
 

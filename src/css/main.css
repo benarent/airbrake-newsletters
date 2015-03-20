@@ -96,6 +96,30 @@ body {
   padding: 20px 0;
 }
 
+/*Animation fun*/
+.animated {
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 1.1s;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  -moz-animation-name: fadeInUpBig;
+  -o-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
 /* -------------------------------------
     TYPOGRAPHY
 ------------------------------------- */
