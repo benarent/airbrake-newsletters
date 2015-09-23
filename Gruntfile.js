@@ -10,7 +10,8 @@ module.exports = function(grunt) {
               style: 'expanded'
             },
             files: {
-              'src/css/main.css': 'src/css/scss/main.scss'
+              'src/css/main.css': 'src/css/scss/main.scss',
+              'src/css/exosphere.css': 'src/css/scss/exosphere.scss' 
             }
           }
         },
@@ -63,8 +64,8 @@ module.exports = function(grunt) {
         // Use Rackspace Cloud Files if you're using images in your email
         cloudfiles: {
           prod: {
-            'user': 'grunt.files', // Change this
-            'key': 'xxx', // Change this
+            'user': 'corpdev0paxon0', // Change this
+            'key': '89ecb97253191d56c1689c0d019c55b6', // Change this
             'region': 'IAD', // Might need to change this
             'upload': [{
               'container': 'grunt-emails', // Change this
@@ -75,7 +76,7 @@ module.exports = function(grunt) {
             , // Might need to change this
             'upload': [{
               'container': 'grunt-emails', // Change this
-              'src': 'src/img/gif/*',
+              'src': 'src/img/*',
               'dest': '/',
               'stripcomponents': 0
             }]
